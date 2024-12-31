@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY NEW YEAR 2025</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUj5REIe8Jy0Qhm6dATE9JzRmsuBwHu8oHxzvpmniyJE4hJIYqLSmMXLSSMpW7_9mBuh8&usqp=CAU" type="image/png">
+    <link rel="Stylesheet" href="style.css"/>
+</head>
+<body>    
+    <div class="IntialBody">
+        <div class="inputBC">
+            <div class="Takename">
+                <input type="text" placeholder="Enter Your Name" class="InputPlace" onkeydown="handleKeyDown(event)" />
+            </div>
+        </div>
+    </div>
+    <div class="wish">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"> 
+                    <div class="main">
+                        <div class="area">
+                            <div>WISH</div> <div>YOU A</div> <div>HAPPY</div> <div>NEW</div> <div>YEAR</div> <div class="name"></div> <div>WELCOME</div> <div>TO 2025!</div>
+                            <button onclick="ShowBack()">CLICK ME</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card-back">
+                    <div  style="color: blue;">
+                        <div class="Cotation"></div>
+                        <button onclick="ShowFront()">CLICK ME</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="fireworks.js"></script>
+</body>
+</html>
